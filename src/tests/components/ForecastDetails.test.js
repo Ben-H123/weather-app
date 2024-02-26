@@ -9,7 +9,7 @@ describe("ForecastDetails", () => {
     it("renders", () => {
     const { asFragment } = render(
       <ForecastDetails
-    forecasts = {validProps}
+    forecast = {validProps}
       />
     );
 

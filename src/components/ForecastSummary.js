@@ -8,6 +8,7 @@ function ForecastSummary(props) {
       temperature,
       description,
       icon,
+      onSelect,
     } = props;
 
     const weatherCode = `${icon.slice(0,1)}00`

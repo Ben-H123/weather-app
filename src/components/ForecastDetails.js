@@ -1,13 +1,13 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
 
-function ForecastDetails({forecasts}) {
+function ForecastDetails({forecast}) {
   const {
     date,
     temperature:{min, max},
     humidity,
     wind:{speed, direction},
-  } = forecasts;
+  } = forecast;
 
   const formattedDate = new Date(date).toDateString()
 
